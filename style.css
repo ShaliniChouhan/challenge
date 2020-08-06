@@ -1,0 +1,38 @@
+body{
+  background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h3{
+  font-family: 'Fredericka the Great', cursive;
+font-family: 'Mansalva', cursive;
+  color:white;
+}
+
+.animated{
+  width: 20px;
+  height: 20px;
+}
+
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+}
+.gg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 6px 0px 0px;
+ 
+}
